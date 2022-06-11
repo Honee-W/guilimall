@@ -18,12 +18,24 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.wzq</groupId>
+            <artifactId>gulimall-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-dependencies</artifactId>
+            <version>2021.0.3</version>
+            <type>pom</type>
+            <scope>runtime</scope>
         </dependency>
 
         <dependency>
@@ -91,7 +103,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.3.7.RELEASE</version>
                 <configuration>
-                    <mainClass>com.wzq.gulimallcoupon.GulimallCouponApplication</mainClass>
+                    <mainClass>com.wzq.gulimall.coupon.GulimallCouponApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>

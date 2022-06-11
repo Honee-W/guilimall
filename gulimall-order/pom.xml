@@ -18,6 +18,11 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.wzq</groupId>
+            <artifactId>gulimall-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
@@ -98,7 +103,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.3.7.RELEASE</version>
                 <configuration>
-                    <mainClass>com.wzq.gulimallorder.GulimallOrderApplication</mainClass>
+                    <mainClass>com.wzq.gulimall.order.GulimallOrderApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>
